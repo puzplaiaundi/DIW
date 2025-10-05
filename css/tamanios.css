@@ -1,0 +1,44 @@
+    html {
+      font-size: 10px; /* prueba cambiando a 20px, 12px... */
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .box {
+      border: 2px solid black;
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+
+    .px {
+      width: 30%;
+      font-size: 16px;
+    }
+
+    .porcentaje {
+      width: 50%;
+      font-size: 120%;
+    }
+
+    .em {
+      font-size: 1.5em;  /* relativo al padre */
+      padding: 2em;      /* relativo al font-size del propio .em */
+    }
+
+    .rem {
+      font-size: 2rem;   /* relativo al <html> */
+      padding: 1rem;
+    }
+    .vh {
+        font-size: 2vh;
+
+        padding: 10vh;
+    }
+        .vw {
+        font-size: 2vw;
+
+        padding: 10vw;
+    }
