@@ -7,7 +7,7 @@
 
 </head>
 <body>
-  <h1>Comparando px, %, em y rem (este texto varía con el html)</h1>
+  <h1>Comparando px, %, em, rem, vh y vw (este texto es el padre)</h1>
 
   <div class="box px">
     <strong>PX</strong><br>
@@ -15,11 +15,11 @@
   </div>
      <div class="box vh ">
     <strong>VH</strong><br>
-    Este texto se tiene que ajustar el padding y el tamaño a la altura de la ventana
+    font_size: 1.5vh; padding 2vh; Este texto se tiene que ajustar el padding y el tamaño a la altura de la ventana
   </div>
     <div class="box vw ">
     <strong>VW</strong><br>
-    Este texto se tiene que ajustar el padding y el tamaño la anchura de la ventana
+    font-size: 1.5vw; padding: 2vw; Este texto se tiene que ajustar el padding y el tamaño a la anchura de la ventana
   </div>
 
   <div class="box porcentaje">
@@ -30,12 +30,7 @@
   <div class="box em">
     <strong>EM</strong><br>
     font-size: 1.5em; padding: 2em
-    <div>
-      Anidado 1.5em ? se multiplica
-        <div class ="box em">
-      Anidado 1.5em ? se multiplica
-    </div>
-    </div>
+   
   </div>
 
   <div class="box rem">

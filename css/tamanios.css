@@ -1,5 +1,5 @@
     html {
-      font-size: 10px; /* prueba cambiando a 20px, 12px... */
+      font-size: 15px; /* prueba cambiando a 20px, 12px... */
     }
 
     body {
@@ -14,7 +14,7 @@
     }
 
     .px {
-      width: 30%;
+      width: 200px;
       font-size: 16px;
     }
 
@@ -33,12 +33,12 @@
       padding: 1rem;
     }
     .vh {
-        font-size: 2vh;
+        font-size: 1.5vh;
 
-        padding: 10vh;
+        padding: 2vh;
     }
         .vw {
-        font-size: 2vw;
+        font-size: 1.5vw;
 
-        padding: 10vw;
+        padding: 2vw;
     }
