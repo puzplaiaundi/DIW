@@ -1,0 +1,92 @@
+body {
+    padding: 5px;
+    font-family: 'Open Sans', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #ffb6b631;
+    color: #403C4E;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+    font-family:
+        'Merriweather',
+        /* preferida (de Google Fonts) */
+        'Georgia',
+        /* elegante, común en Windows/macOS */
+        'Times New Roman',
+        /* disponible en casi todos los sistemas */
+        'Times',
+        /* fallback clásico */
+        serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    /* ≈ 40px */
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.875rem;
+    /* ≈ 30px */
+    font-weight: 700;
+}
+
+
+.columnas {
+    background: rgba(255, 255, 255, 0.6);
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    column-count: 3;
+    /* Divide el contenido en 3 columnas */
+    column-gap: 30px;
+    /* Espacio entre columnas */
+    column-rule: 2px solid #aaa;
+    /* Línea divisoria */
+    width: 100%;
+    margin: 2rem auto;
+}
+
+.columna {
+    break-inside: avoid;
+    /* Evita que un div se parta entre columnas */
+    padding: 1rem;
+
+}
+.columna.img{
+    /*para que las imagenes se centren*/
+    text-align:center;
+}
+.columna img {
+    max-width: 100%;
+    height: 150px;
+    border-radius: 5px;
+
+}
+
+footer {
+    background-color: #FFC4B3;
+    height: 100px;
+    padding: 1rem;
+    border-radius: 10px;
+    ;
+
+}
+
+/*opacidades de las imagenes*/
+.c1.img {
+    opacity: 0.3;
+}
+
+.c2.img {
+    opacity: 0.6;
+}
+
+.c3.img {
+    opacity: 0.9;
+}
