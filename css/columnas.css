@@ -25,6 +25,27 @@ h3 {
         serif;
 }
 
+.aviso {
+    padding: 1rem;
+    background-color: #c3b2ffd5;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-color: #403C4E;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow:
+        2px 2px 5px rgba(0, 0, 0, 0.3),
+        /* sombra principal */
+        4px 4px 10px rgba(212, 190, 94, 0.767),
+        /* sombra más difusa */
+        0 0 20px rgba(255, 200, 150, 0.8);
+    /* resplandor o luz */
+
+}
+
 h1 {
     font-size: 2.5rem;
     /* ≈ 40px */
@@ -39,7 +60,7 @@ h2 {
 
 
 .columnas {
-    background: rgba(255, 255, 255, 0.6);
+
     margin-bottom: 1rem;
     border-radius: 6px;
     column-count: 3;
@@ -50,18 +71,22 @@ h2 {
     /* Línea divisoria */
     width: 100%;
     margin: 2rem auto;
+
 }
 
 .columna {
+    background: rgb(197, 196, 196);
     break-inside: avoid;
     /* Evita que un div se parta entre columnas */
     padding: 1rem;
 
 }
-.columna.img{
+
+.columna.img {
     /*para que las imagenes se centren*/
-    text-align:center;
+    text-align: center;
 }
+
 .columna img {
     max-width: 100%;
     height: 150px;
@@ -69,12 +94,17 @@ h2 {
 
 }
 
+.contenido {
+    height: 200px;
+    ;
+}
+
 footer {
     background-color: #FFC4B3;
     height: 100px;
     padding: 1rem;
     border-radius: 10px;
-    ;
+
 
 }
 

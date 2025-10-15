@@ -19,8 +19,13 @@
 
     <main>
         <div class="texto apaisado">
-            <p>La propiedad opacity controla el nivel de transparencia de un elemento completo, incluyendo todo su
-                contenido (texto, imágenes, fondos). Acepta valores decimales entre 0 (completamente transparente) y 1
+            <div class="aviso">
+                Este ejemplo muestra las posibilidades de maquetación 
+                que ofrece column-count sin usar grid, flexbox ni ningún otro framework.
+            </div>
+            <p>La propiedad opacity controla el nivel de transparencia de un elemento completo, 
+                incluyendo todo su contenido (texto, imágenes, fondos). Acepta valores 
+                decimales entre 0 (completamente transparente) y 1
                 (completamente opaco).
             </p>
         </div>
@@ -29,7 +34,8 @@
             <div class="columna c1 img"> <img src="images/img1.png" alt="Gente sentada"></div>
             <div class="columna c1 contenido">
                 <h2>opacity: 0.3</h2>
-                <p>Muy transparente, apenas visible. Ideal para elementos decorativos de fondo que no deben distraer./p>
+                <p>Muy transparente, apenas visible.
+                     Ideal para elementos decorativos de fondo que no deben distraer.</p>
             </div>
             <div class="columna c2 img"><img src="images/img2.png"></div>
 
@@ -43,13 +49,15 @@
             <div class="columna c3 img"><img src="images/img3.png"></div>
             <div class="columna c3 contenido">
                 <h2>opacity: 0.9</h2>
-                <p>Casi opaco. Mantiene una ligera transparencia sutil sin comprometer la legibilidad del contenido.
+                <p>Casi opaco. Mantiene una ligera transparencia sutil 
+                    sin comprometer la legibilidad del contenido.
                 </p>
             </div>
         </div>
     </main>
     <footer>
-        <p>Importante: opacity afecta al elemento completo, incluyendo todos sus hijos. Si solo quieres transparencia en
+        <p>Importante: opacity afecta al elemento completo,
+             incluyendo todos sus hijos. Si solo quieres transparencia en
             el fondo, usa rgba().</p>
     </footer>
 </body>
